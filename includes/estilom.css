@@ -1,0 +1,51 @@
+/* CSS Document */
+body {
+	margin-top:0px;
+}
+.style1 {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #003300;
+
+}
+.styleV {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#990000;
+
+}
+.style14 {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #003300;
+	background-color:#f3f3f3;
+}
+.style18 {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#009933;
+	border-bottom:2px solid #FFFFFF;
+
+}
+.style2 {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #009900;
+}
+.style8 {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#009966;
+}
+.error {
+	color: #CC0000;
+	font-weight: bold;
+	font-size:12px;
+	font-family: Arial, Helvetica, sans-serif;
+	height:30px;
+	border:1px solid #FFFFFFF;
+}
+
+

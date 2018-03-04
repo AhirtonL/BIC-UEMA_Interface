@@ -1,0 +1,105 @@
+/* CSS Document */
+input {
+	margin: 0.1em;
+}
+
+input.invalid, textarea.invalid {
+	background-color: #FFE813;
+	border: 0.1em;
+	border-color: #BB0000 !important;
+	border-style: solid;
+	margin: 0.1em !important;
+}
+
+input.invalid:focus, textarea.invalid:focus {
+	background-color: #FFE813;
+	border: 0.2em;
+	border-color: #BB0000 !important;
+	border-style: solid;
+	margin: 0 !important;
+}
+
+input:focus, textarea:focus {
+	background-image: none;
+	border: 0.2em;
+	border-color: #7E9FDA;
+	border-style: solid;
+	margin: 0;
+}
+
+input[type="checkbox"]:focus, input[type="radio"]:focus {
+	border: 0;
+	margin: 0.1em;
+}
+
+input[type="submit"] {
+	border-style: outset;
+	border-width: 0.2em;
+	margin: 0em;
+}
+
+input[type="submit"]:active {
+	border-style: inset;
+	border-width: 0.2em;
+	margin: 0em;
+}
+
+input[type="submit"]:focus {
+	border-style: outset;
+	border-width: 0.2em;
+	margin: 0em;
+}
+
+legend {
+	background-color: #FFFFFF;
+	border: 0.1em;
+	border-color: #7E9FDA;
+	border-style: solid;
+	color: #3362B4;
+	font-weight: bold;
+	padding: 0.5em;
+}
+
+.boxes {
+	border: none;
+}
+
+.required {
+	background-image: url(images/required.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+/* Form message boxes */
+
+div.tmtFormMessage,
+div.tmtFormErrorMessage {
+	border: 1px;
+	border-style: solid;
+	padding: 5px;
+	margin: 10px;
+}
+
+div.tmtFormMessage {
+	background-color: #A4BFF0;
+	border-color: #12387A;
+}
+
+div.tmtFormErrorMessage {
+	background-color: #F9D400;
+	background-image:url(images/field-alert.gif);
+	background-position: 5px 4px;
+	background-repeat: no-repeat;	
+	border-color: #BB0000;
+	padding-left: 30px;
+}
+
+div.tmtFormMessage ul,
+div.tmtFormErrorMessage ul {
+	list-style-type: square;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+

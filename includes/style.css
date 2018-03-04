@@ -1,0 +1,120 @@
+/* CSS Document */
+html, body {
+	background-color: #F1F1F1;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	margin: 0em;
+}
+
+div#navBar {
+	height: 3em;
+	margin-bottom: 2em;
+	width: 70em;
+}
+
+div#navBar li {
+	background-color: #FFFFFF;
+	border-color: #7E9FDA;
+	border-style: solid;
+	border-width: 0.1em;
+	float: left;
+	list-style: none;
+	margin: 0.2em;
+	padding: 0.5em;
+	text-align: center;
+	white-space: nowrap;
+	width: 9em;
+}
+
+div#navBar li.mainLink {
+	background-color: #6D93D8;
+	border-color: #E2E9F8;
+}
+
+div#navBar li a, div#navBar li a:link{
+	color: #3362B4;
+	text-decoration: none;
+}
+
+div#navBar li.mainLink a, div#navBar li.mainLink a:link{
+	color: #FFFFFF;
+}
+
+div#navBar ul {
+	margin-left: -1.0em;
+}
+
+div.docBlock {
+	margin-bottom: 2em;
+	min-width: 600px;
+	padding: 0.8em !important;
+}
+
+div.docBlock .code,
+div.code,
+pre {
+	background-color: #FFFDE8;
+	border-color: #003366;
+	border-style: solid;
+	border-width: 0.1em;
+	color: #333333;
+	font-family: "Lucida Console", "Courier New", Courier, monospace;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+	line-height: 130%;
+	margin: 1em;
+	padding: 1em;
+}
+
+pre {
+	border: 0em !important;
+	font-size: 1em !important;
+}
+
+div.docBlock h1, div.docBlock h3 {
+	background-color: #FFFFFF;
+	color: #3362B4;
+	font-size: 1.0em;
+	font-weight: bold;
+	margin-left: 1em;
+	margin-top: -1.8em;
+	padding: 0.3em;
+	white-space: nowrap;
+	width: 75%;
+}
+
+div.docBlock table {
+	background-color: #7E9FDA;
+	width: 100%;
+}
+
+div.docBlock td {
+	background-color: #FFFDDD;
+	padding: 0.2em;
+	vertical-align: top;
+}
+
+div.docBlock, h1, h3, fieldset, input, textarea {
+	border: 0.1em;
+	border-color: #7E9FDA;
+	border-style: solid;
+	padding: 0.1em;
+}
+
+div.docBlock li {
+	margin-top: 0.3em;
+}
+
+fieldset {
+	padding: 1em;
+	margin-bottom: 2em;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.warning {
+	color: #BB0000;
+	font-weight: bold;
+}
